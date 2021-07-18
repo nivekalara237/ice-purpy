@@ -144,8 +144,8 @@ public class DBHelper extends SQLiteOpenHelper {
                 String.format("SELECT * FROM %s",
                         ProductEntity.TABLE_NAME);
         queryToSelectProducts(products, PRODUCTS_SELECT_QUERY);
-        System.out.println(products.size());
-        System.out.println(products);
+        //System.out.println(products.size());
+        //System.out.println(products);
         return products;
     }
 

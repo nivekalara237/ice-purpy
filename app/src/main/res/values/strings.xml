@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name" translatable="false">Ice Purpy</string>
     <string name="action_notification">Notification</string>
     <string name="product_image">Product image</string>
@@ -103,4 +103,5 @@
         "when a user tries to pick up one of cards.\n\n"
     </string>
     <string name="enter_your_full_name">Enter your full name</string>
+    <string name="pendo_api_key" tools:ignore="TypographyDashes">eyJhbGciOiJSUzI1NiIsImtpZCI6IiIsInR5cCI6IkpXVCJ9.eyJkYXRhY2VudGVyIjoidXMiLCJrZXkiOiI4N2VkOThkNjkxNTk2Mzg4ZmMwOGNiNDliMDMyZWE3YzEzYzYzNzQyMmE1M2IyNzllYzVkZGNkODU2OGQzYWM3YmRlN2JhZjg0M2EzNTIzNmI3ZjM0YmRlY2M3ZDJjYTQ3ZGU4YTk1YWRkNTY4YzliNGVlNWRiNmMxM2YzN2Q0MDc4Y2I4YWJiMDkxZWE4M2U4YzliOTA3NzEzMjY1MjM2LjgxYTRiYWNlYTJiZGJmMTJjZDg3MzM5OWZiYjIxNjcwLmZkOGU3NTI2ZmM3MjU2MTVjM2Q0NTExYmMyN2VmMjNkOWVlODAzMjA2ZTdiOThmOGUwY2M3MmUwYjQzZTAyZDYifQ.K7Psx-2i6wIrgA1zDtWqwJ3aPAw-4emtuw_w--4ja8oe3nzrlPtrMr5nSmHEf6lLDvO8BwztqZjyC_3VFlWvX8GydXxBVzioqUGZIQL_tfKFvMDR6yqRVLtjyJg51WnPcH5t6Tw1XHDu_R-fpoVkiEYcUXs5DLP3YqKff53HiZc</string>
 </resources>

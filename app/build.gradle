@@ -1,5 +1,13 @@
 apply plugin: 'com.android.application'
 
+repositories {
+    maven { url "https://software.mobile.pendo.io/artifactory/android-sdk-externals" }
+    maven { url "https://software.mobile.pendo.io/artifactory/android-release" }
+    maven { url "https://software.mobile.pendo.io/artifactory/android-staging" }
+    maven { url "https://software.mobile.pendo.io/artifactory/applause-android-sdk-shared" }
+    mavenCentral()
+}
+
 android {
     compileSdkVersion 29
     defaultConfig {
@@ -32,6 +40,8 @@ dependencies {
     implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
     implementation 'androidx.recyclerview:recyclerview:1.2.0'
     implementation 'androidx.cardview:cardview:1.0.0'
+
+    implementation group: 'sdk.pendo.io', name: 'pendoIO', version: '2.10.0.1998', changing: true
 
     //noinspection GradleDependency
     implementation 'com.squareup.picasso:picasso:2.71828'
